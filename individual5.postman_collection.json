@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "b803bf9e-b78c-4581-9174-2c19c51263d1",
+		"name": "individual5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "21934336"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/rectangulo/obtener-todos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/rectangulo/obtener-todos"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/rectangulo/obtener/7",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/rectangulo/obtener/7"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/rectangulo/crear",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"x\": 1000,\n    \"y\": 2000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/rectangulo/crear"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/rectangulo/actualizar/8",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"x\": 80001,\n    \"y\": 20002\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/rectangulo/actualizar/8"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/rectangulo/borrar/8",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:3000/rectangulo/borrar/3"
+			},
+			"response": []
+		}
+	]
+}
